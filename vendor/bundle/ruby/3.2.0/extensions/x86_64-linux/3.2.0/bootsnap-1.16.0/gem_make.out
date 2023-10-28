@@ -1,0 +1,18 @@
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/home/guantai/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231026-46202-yf22et sitelibdir\=./.gem.20231026-46202-yf22et clean
+
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231026-46202-yf22et sitelibdir\=./.gem.20231026-46202-yf22et
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231026-46202-yf22et sitelibdir\=./.gem.20231026-46202-yf22et install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20231026-46202-yf22et/bootsnap
+
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231026-46202-yf22et sitelibdir\=./.gem.20231026-46202-yf22et clean

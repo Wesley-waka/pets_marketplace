@@ -1,0 +1,1 @@
+json.partial! 'show', profile: @profile

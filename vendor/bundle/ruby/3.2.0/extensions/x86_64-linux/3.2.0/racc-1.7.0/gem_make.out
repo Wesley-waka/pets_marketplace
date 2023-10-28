@@ -1,0 +1,20 @@
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/racc-1.7.0/ext/racc/cparse
+/home/guantai/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/racc-1.7.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231026-46202-4ahyma sitelibdir\=./.gem.20231026-46202-4ahyma clean
+
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/racc-1.7.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231026-46202-4ahyma sitelibdir\=./.gem.20231026-46202-4ahyma
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/racc-1.7.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231026-46202-4ahyma sitelibdir\=./.gem.20231026-46202-4ahyma install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20231026-46202-4ahyma/racc
+
+current directory: /home/guantai/Videos/pets_marketplace-master (1)/pets_marketplace-master/vendor/bundle/ruby/3.2.0/gems/racc-1.7.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231026-46202-4ahyma sitelibdir\=./.gem.20231026-46202-4ahyma clean

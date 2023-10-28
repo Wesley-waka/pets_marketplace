@@ -1,0 +1,14 @@
+json.id profile.id
+json.first_name profile.first_name
+json.last_name profile.last_name
+json.bio profile.bio
+json.account_type profile.account_type
+json.language profile.language
+json.location profile.location
+json.facebook_url profile.facebook_url
+json.twitter_url profile.twitter_url
+json.linkedin_url profile.linkedin_url
+json.whatsapp_url profile.whatsapp_url
+json.profile_image profile&.profile_image_blob_url
+json.email profile.user.email
+json.phone_number profile.phone_number

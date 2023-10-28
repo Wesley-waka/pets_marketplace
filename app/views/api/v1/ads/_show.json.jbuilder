@@ -1,0 +1,13 @@
+json.id ad.id
+json.name ad.name
+json.description ad.description
+json.breed ad.breed
+json.gender ad.gender
+json.pet_type ad.pet_type
+json.price ad.price
+json.agee ad.age
+json.country ad.country
+json.city ad.city
+json.zipcode ad.zipcode
+json.email ad.email
+json.phone_number ad.phone_number
