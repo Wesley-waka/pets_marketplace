@@ -19,26 +19,17 @@ default: &default
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
-  host: localhost
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: postgres
-  password: password
 
 development:
   <<: *default
-  # adapter: sqlite3
-  database: pets_marketplace_development.sqlite3
-  adapter: postgresql
-  # database: defaultdb
-  username: doadmin
-  password: AVNS_agkktkUgouZaPxCQGea
-  host: db-postgresql-nyc3-25171-do-user-14654611-0.c.db.ondigitalocean.com
-  
+  database: pets_marketplace_development
+
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
-  #username: nawaah_app
+  #username: your_app_name
 
   # The password associated with the postgres role (username).
   #password:
@@ -90,8 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: postgres
-  url: <%= ENV['DATABASE_URL'] %>
-  username: postgres
-  password: password
-  secret_key_base: 4805180e11f611fcb48e480f8c179a6f6468c3465ffb9384dd54e04e6a2b90e1717c40aecdfee78f0bf6e4fb0c50c169c293156300fdcb54fa462c352be6ba4a
+  database: pets_marketplace_production
+  username: pets_marketplace
+  password: <%= ENV["YOUR_APP_NAME_DATABASE_PASSWORD"] %>
