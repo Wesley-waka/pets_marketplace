@@ -19,10 +19,10 @@ default: &default
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
-  host: db-postgresql-nyc3-66185-do-user-14654611-0.c.db.ondigitalocean.com
+  host: db-postgresql-nyc3-25171-do-user-14654611-0.c.db.ondigitalocean.com
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: doadmin
-  password: AVNS_v7lWjeR_WnPrcJpisgs
+  password: AVNS_agkktkUgouZaPxCQGea
 
 development:
   <<: *default
@@ -86,7 +86,7 @@ test:
 production:
   <<: *default
   database: defaultdb
-  url: postgresql://doadmin:AVNS_v7lWjeR_WnPrcJpisgs@db-postgresql-nyc3-66185-do-user-14654611-0.c.db.ondigitalocean.com:25060/defaultdb?sslmode=require
+  url: postgresql://doadmin:AVNS_agkktkUgouZaPxCQGea@db-postgresql-nyc3-25171-do-user-14654611-0.c.db.ondigitalocean.com:25060/defaultdb?sslmode=require
   username: doadmin
-  password: AVNS_v7lWjeR_WnPrcJpisgs
+  password: AVNS_agkktkUgouZaPxCQGea
   secret_key_base: ff75e3aeb7e9c21235947129a89dcfc5
