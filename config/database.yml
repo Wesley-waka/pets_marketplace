@@ -90,7 +90,7 @@ test:
 #
 production:
   <<: *default
-  database: pets_marketplace_production
+  database: postgres
   url: <%= ENV['DATABASE_URL'] %>
   username: postgres
   password: password
