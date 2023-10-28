@@ -88,4 +88,4 @@ production:
   database: defaultdb
   url: <%= ENV['DATABASE_URL'] %>
   username: doadmin
-  password: doadmin
+  password: AVNS_v7lWjeR_WnPrcJpisgs
