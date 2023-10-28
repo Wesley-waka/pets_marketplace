@@ -86,6 +86,6 @@ test:
 production:
   <<: *default
   database: defaultdb
-  url: <%= ENV['DATABASE_URL'] %>
+  url: postgresql://doadmin:AVNS_v7lWjeR_WnPrcJpisgs@db-postgresql-nyc3-66185-do-user-14654611-0.c.db.ondigitalocean.com:25060/defaultdb?sslmode=require
   username: doadmin
   password: AVNS_v7lWjeR_WnPrcJpisgs
