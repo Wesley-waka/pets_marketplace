@@ -24,14 +24,14 @@ default: &default
   username: doadmin
   password: AVNS_agkktkUgouZaPxCQGea
 
-development:
-  <<: *default
-  # adapter: sqlite3
-  database: pets_marketplace_development.sqlite3
-  adapter: postgresql
-  # database: defaultdb
-  username: doadmin
-  password: AVNS_agkktkUgouZaPxCQGea
+# development:
+#   <<: *default
+#   # adapter: sqlite3
+#   database: pets_marketplace_development.sqlite3
+#   adapter: postgresql
+#   # database: defaultdb
+#   username: doadmin
+#   password: AVNS_agkktkUgouZaPxCQGea
   host: db-postgresql-nyc3-25171-do-user-14654611-0.c.db.ondigitalocean.com
   
   # The specified database role being used to connect to postgres.
